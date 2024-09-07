@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: "Sofia Pro Black", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.navbar-item {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-right .navbar-item {
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 25px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    padding: 20px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-item-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
